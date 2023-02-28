@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center  mx-auto px-4 bg-white mb-10  w-full  z-10 ">
+      <div className="flex justify-between items-center  mx-auto px-4 bg-white mb-10 h-fit w-full  z-10 ">
         <div className="md:flex md:justify-between md:items-center">
           <div
             className="m-3 p-2 font-extrabold text-xl text-cyan-600"

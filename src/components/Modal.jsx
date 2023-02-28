@@ -1,7 +1,24 @@
-import React from "react";
+// import React, { useState } from "react";
+// import ModalContent from "./ModalContent";
 
-const Modal = () => {
-  return <div>Modal</div>;
-};
+// const Modal = () => {
+//   const [showModal, setShowModal] = useState(false);
 
-export default Modal;
+//   const closeModal = () => setShowModal(false);
+
+//   return (
+//     <>
+//       <div>
+//         <button
+//           onClick={() => setShowModal(true)}
+//           className="text-white bg-slate-700"
+//         >
+//           open Modal
+//         </button>
+//         {showModal && <ModalContent closeModal={closeModal} />}
+//       </div>
+//     </>
+//   );
+// };
+
+// export default Modal;

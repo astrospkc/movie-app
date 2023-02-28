@@ -1,6 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import { GenreContext } from "../context/GenreData";
 import Buttons from "./Buttons";
+// import Modal from "./Modal";
+
 import MovieCard from "./MovieCard";
 import MovieSearch from "./MovieSearch";
 import { API_KEY, base_url } from "./urls";
@@ -42,6 +44,7 @@ const Movies = (props) => {
   return (
     <div>
       <MovieSearch />
+
       <div className="">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-x-10  m-2 py-4">
           {data &&
@@ -61,9 +64,6 @@ const Movies = (props) => {
                 </div>
               );
             })}
-          {/* <div className="justify-items-center"> */}
-
-          {/* </div> */}
         </div>
       </div>
       <Buttons />

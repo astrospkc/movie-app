@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+// import ModalContent from "./ModalContent";
 
 const MovieCard = (props) => {
   let { title, release_date, imageurl, vote_average } = props;
+  // const [showModal, setShowModal] = useState(false);
+
+  // const closeModal = () => setShowModal(false);
 
   return (
     <>
@@ -12,9 +16,13 @@ const MovieCard = (props) => {
         >
           <img className="" src={imageurl} alt="Movie Image" />
           <div className="">
-            <h2 className="px-2 py-2 m-1 bg-black text-white rounded-full text-xs text-center transition ease-in-out delay-150 hover:-translate-y-0  hover:bg-gray-800 cursor-pointer">
+            <h2
+              // onClick={() => setShowModal(true)}
+              className="px-2 py-2 m-1 bg-black text-white rounded-full text-xs text-center transition ease-in-out delay-150 hover:-translate-y-0  hover:bg-gray-800 cursor-pointer"
+            >
               {title}
             </h2>
+
             <div className="flex flex-row  items-center text-white">
               <h2 className="mx-1 font-bold ">Release Date:</h2>
               <h3 className="text-xs font-sans font-semibold">
@@ -28,6 +36,7 @@ const MovieCard = (props) => {
           </div>
         </div>
       </div>
+      {/* {showModal && <ModalContent closeModal={closeModal} />} */}
     </>
   );
 };
