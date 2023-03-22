@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { GenreContext } from "../context/GenreData";
-import Buttons from "./Buttons";
+// import Buttons from "./Buttons";
 // import Modal from "./Modal";
 
 import MovieCard from "./MovieCard";
@@ -66,7 +66,7 @@ const Movies = (props) => {
             })}
         </div>
       </div>
-      <Buttons />
+      {/* <Buttons /> */}
     </div>
   );
 };
