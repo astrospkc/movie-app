@@ -1,5 +1,11 @@
 # Movie App 
 
+## Main page ##
+![](images/movie.png)
+
+## Genre section ##
+![](images/moviegenre.png)
+
 ## Skills Gained
 1. React js <https://reactjs.org/>
 2. React hooks <https://reactjs.org/docs/hooks-intro.html>
